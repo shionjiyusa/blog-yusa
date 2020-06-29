@@ -1,0 +1,19 @@
+---
+title: VS code 插件
+url: 115.html
+id: 115
+categories:
+  - 未分类
+date: 2019-02-25 13:27:19
+tags:
+---
+
+auto close tag 自动关闭 html 标签
+
+auto rename tag 自动更改 html 对应的标签
+
+debugger for chrome 前端利用 chrome 断点调试
+
+open in browser 右键浏览器打开文件
+
+PHP debug 断点调试 PHP
