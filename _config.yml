@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Kanata
+title: 星の音
 subtitle: "It is the only NEET thing to do"
 description: ""
 keywords:
-author: Yusa
+author: yusa
 language: zh_CN
 timezone: "Asia/Shanghai"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.sena.moe/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -99,5 +99,5 @@ theme: fluid
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/shionjiyusa/shionjiyusa.github.io.git
+  repo: https://github.com/himenoyusa/shionjiyusa.github.io
   branch: master

@@ -10,4 +10,4 @@ layout: about
 
 just for fun  
 
-- 联系方式：yusa_kanata@outlook.com  
+- 联系方式：yusa_himeno@outlook.com  
