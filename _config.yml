@@ -13,7 +13,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://blog.kanata.moe/
+url: http://blog.sena.moe/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -99,5 +99,5 @@ theme: fluid
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://gitee.com/yusa_kanata/yusa_blog.git
+  repo: https://github.com/himenoyusa/shionjiyusa.github.io
   branch: master
