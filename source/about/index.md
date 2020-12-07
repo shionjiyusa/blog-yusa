@@ -4,7 +4,7 @@ date: 2020-06-04 00:08:54
 layout: about
 ---
 
-## Kanata  
+## Sena  
 
 > It's the only NEET thing to do  
 
