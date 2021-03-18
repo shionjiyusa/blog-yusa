@@ -364,20 +364,14 @@ links:
   subtitle:  # 打字机内容
   items:  # intro 与 image 可省略
     - {
-      title: 'Fluid Docs',
-      intro: '主题使用指南',
-      link: 'https://hexo.fluid-dev.com/docs/',
-      image: '/img/favicon.png'
-    }
+        title: "四葉氷鋒",
+        intro: "",
+        link: "https://laurenfrost.github.io/",
+        image: "/img/siye.jpg",
+      }
     - {
-      title: 'Fluid Repo',
-      intro: '主题 GitHub 仓库',
-      link: 'https://github.com/fluid-dev/hexo-theme-fluid',
-      image: '/img/favicon.png'
-    }
-    - {
-      title: 'Fluid Example',
-      intro: '主题操作示例',
-      link: 'https://hexo.fluid-dev.com/docs/example/',
-      image: '/img/favicon.png'
-    }
+        title: "Hmiku",
+        intro: "",
+        link: "https://hatsune-miku.top/",
+        image: "/img/hmiku.jpg",
+      }
