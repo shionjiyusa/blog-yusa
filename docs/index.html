@@ -68,7 +68,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/">
               <i class="iconfont icon-home-fill"></i>
-              ホーム</a>
+              首页</a>
           </li>
         
           
@@ -77,7 +77,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/archives/">
               <i class="iconfont icon-archive-fill"></i>
-              アーカイブ</a>
+              归档</a>
           </li>
         
           
@@ -86,7 +86,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/categories/">
               <i class="iconfont icon-category-fill"></i>
-              カテゴリー</a>
+              分类</a>
           </li>
         
           
@@ -95,7 +95,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/about/">
               <i class="iconfont icon-user-fill"></i>
-              本ブログ情報　</a>
+              关于</a>
           </li>
         
           
@@ -104,7 +104,7 @@
           <li class="nav-item">
             <a class="nav-link" href="/links/">
               <i class="iconfont icon-link-fill"></i>
-              リンク</a>
+              友链</a>
           </li>
         
         
@@ -154,6 +154,42 @@
               <div class="col-12 col-md-10 m-auto">
                 
 
+
+  <div class="row mx-auto index-card">
+    
+    
+    <div class="col-12 col-md-12 mx-auto index-info">
+      <a class="index-header" href="/2021/07/02/building_speed/">旧版本CRA打包构建速度优化</a>
+
+      <a href="/2021/07/02/building_speed/" class="index-excerpt">
+        
+        
+          
+        
+        <div>
+公司项目由于使用的 react-scripts 版本太老，试了一下没办法一步升级到最新版本，每次打包都得花 15 分钟左右，实在是急死人。
+最近实在忍不住了，尝试对打包速度进行了优化。走了一些弯路，但是最后打包时间缩短到了 1 分钟，还是非常欣慰的。
+优化思路首先弄清楚优化思路很重要，webpack 可以使用 SMP(speed-measure-webpack-plugin) 对打包时间进行记录</div>
+      </a>
+
+      <div class="index-btm post-metas">
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-date"></i>&nbsp;2021-07-02
+          </div>
+        
+        
+          <div class="post-meta mr-3">
+            <i class="iconfont icon-category"></i>
+            
+              <a href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a>
+            
+          </div>
+        
+        
+      </div>
+    </div>
+  </div>
 
   <div class="row mx-auto index-card">
     
@@ -533,42 +569,6 @@ NAGA 作品，和白羽好像 w
     </div>
   </div>
 
-  <div class="row mx-auto index-card">
-    
-    
-    <div class="col-12 col-md-12 mx-auto index-info">
-      <a class="index-header" href="/2019/12/15/20191215/">每次想写点东西的时候，都是心情不好的时候</a>
-
-      <a href="/2019/12/15/20191215/" class="index-excerpt">
-        
-        
-          
-        
-        <div>
-或者说每次心情不好的时候都想写点东西？
-还是算了 w
-</div>
-      </a>
-
-      <div class="index-btm post-metas">
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-date"></i>&nbsp;2019-12-15
-          </div>
-        
-        
-          <div class="post-meta mr-3">
-            <i class="iconfont icon-category"></i>
-            
-              <a href="/categories/%E7%A2%8E%E7%A2%8E%E5%BF%B5/">碎碎念</a>
-            
-          </div>
-        
-        
-      </div>
-    </div>
-  </div>
-
 
 
   <nav aria-label="navigation">
@@ -605,7 +605,7 @@ NAGA 作品，和白羽好像 w
   <div class="modal-dialog modal-dialog-scrollable modal-lg" role="document">
     <div class="modal-content">
       <div class="modal-header text-center">
-        <h4 class="modal-title w-100 font-weight-bold">検索</h4>
+        <h4 class="modal-title w-100 font-weight-bold">搜索</h4>
         <button type="button" id="local-search-close" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -614,7 +614,7 @@ NAGA 作品，和白羽好像 w
         <div class="md-form mb-5">
           <input type="text" id="local-search-input" class="form-control validate">
           <label data-error="x" data-success="v"
-                 for="local-search-input">キーワード</label>
+                 for="local-search-input">关键词</label>
         </div>
         <div class="list-group" id="local-search-result"></div>
       </div>
